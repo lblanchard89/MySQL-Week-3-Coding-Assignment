@@ -10,6 +10,7 @@ create table users (
 	user_id int(12) not null auto_increment,
 	username varchar(20) not null,
 	password varchar(20) not null,
+    email varchar(20) not null,
 	primary key (user_id)
 );
 
